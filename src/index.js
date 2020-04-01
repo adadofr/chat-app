@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './components/Status.js';
+import Contact from './components/Contact';
+import './components/Contact.css';
+import Status from './components/Status.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />  
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
